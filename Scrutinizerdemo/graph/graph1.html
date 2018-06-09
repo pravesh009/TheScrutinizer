@@ -1,0 +1,19 @@
+<html>
+<?php
+$a=1;
+$c=16;
+?>
+<div id="tester" style="width:600px;height:250px;"></div>
+<head>
+	<script src="plotly-latest.min.js"></script>
+<script>
+	var a=<?php echo $a; ?>;
+	var c=<?php echo $c; ?>
+	TESTER = document.getElementById('tester');
+	Plotly.plot( TESTER, [{
+	x: [a, 2, 3, 4, 5],
+	y: [1, 2, 4, 8, c] }], {
+	margin: { t: 0 } } );
+</script>
+</head>
+</html>

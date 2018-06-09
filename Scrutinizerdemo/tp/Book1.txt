@@ -1,0 +1,25 @@
+			"As companies move past the experimental phase with Hadoop, many cite the need for additional capabilities, including:"	MCQ(Single/Multiple)	No	xxxx	 Improved data storage and information retrieval~Improved extract and transform and load features for data integration~Improved data warehousing functionality~ Improved security and workload management and SQL support	4							
+			Point out the correct statement :	MCQ(Single/Multiple)	No	xxxx	 Hadoop do need specialized hardware to process the data~Hadoop 2.0 allows live stream processing of real time data~ In Hadoop programming framework output files are divided in to lines or records~ None of the mentioned	2							
+			" According to analysts, for what can traditional IT systems provide a foundation when they are integrated with big data technologies like Hadoop ?"	MCQ(Single/Multiple)	No	xxxx	 Big data management and data mining~Data warehousing and business intelligence~Management of Hadoop clusters~Collecting and storing unstructured data	1							
+			Hadoop is a framework that works with a variety of related tools. Common cohorts include:	MCQ(Single/Multiple)	No	xxxx	MapReduce Hive and HBase~ MapReduce MySQL and Google Apps~MapReduce Hummer and Iguana~MapReduce Heron and Trumpet	1							
+			 Point out the wrong statement :	MCQ(Single/Multiple)	No	xxxx	" Hardtop’s processing capabilities are huge and its real advantage lies in the ability to process terabytes & petabytes of data~Hadoop uses a programming model called “MapReduce”, all the programs should confirms to this model in order to work on Hadoop platform~The programming model and MapReduce and used by Hadoop is difficult to write and test~All of the mentioned"	3							
+			What was Hadoop named after?	MCQ(Single/Multiple)	No	xxxx	Creator Doug Cutting’s favorite circus act~Cutting’s high school rock band~The toy elephant of Cutting’s son~A sound Cutting’s laptop made during Hadoop’s development	3							
+			"All of the following accurately describe Hadoop, EXCEPT:"	MCQ(Single/Multiple)	No	xxxx	Open source~Real-time~Java-based~Distributed computing approach	2							
+			 __________ can best be described as a programming model used to develop Hadoop-based applications that can process massive amounts of data.	MCQ(Single/Multiple)	No	xxxx	 MapReduce~Mahout~Oozie~All of the mentioned	1							
+			 __________ has the world’s largest Hadoop cluster.	MCQ(Single/Multiple)	No	xxxx	 Apple~Datamatics~Facebook~None of the mentioned	3							
+			Facebook Tackles Big Data With _______ based on Hadoop.	MCQ(Single/Multiple)	No	xxxx	Project Prism~Prism~Project Big~Project Data	1							
+			If the window has length M then _________ bits are sufficient for a bucket in DGIM	MCQ(Single/Multiple)	No	xxxx	O(LogLog M)~O(M*M)~O(log M)~O(M)	1							
+			Data stream algorithms are much more efficient to get an approximate answer than an exact solution	True/Flase	No	xxxx	True~False	1							
+			"Instead of summarizing fixed-length blocks, summarize blocks with specific number of 1s is an idea used in ________________ algorithm"	MCQ(Single/Multiple)	No	xxxx	Blooms Filter~DGIM~Flajolet Martin~None of the options	2							
+			There are either one or two buckets of any given size in DGIM algorithm	True/Flase	No	xxxx	True~False	1							
+			Bloom filter allows to filter the stream such that elements which belong to particular set are deleted while most non members are allowed through.	True/Flase	No	xxxx	True~False	1							
+			Common process applied on stream is:	MCQ(Single/Multiple)	No	xxxx	Searching~Merging~Sorting~Filtering	4							
+			Purpose of decaying window is:	MCQ(Single/Multiple)	No	xxxx	Give medium weightage to past elements~Give low weightage to recent elements~Give high weightage to past elements~Give high weightage to recent elements	4							
+			To count distinct number of elements in stream __________________ algorithm is useful.	MCQ(Single/Multiple)	No	xxxx	DGIM~PCY~Flajolet Martin~None of the options	3							
+			Data stream is _____ and _____ data	MCQ(Single/Multiple)	No	xxxx	Timely and Ordered~Historical and Ordered~Timely and Frequent~Frequent and ordered	1							
+			Blooms filter does not have False positive problem	True/Flase	No	xxxx	False~True	2							
+			Following are the issues in Data Streaming	MCQ(Single/Multiple)	No	xxxx	Unbounded Memory Requirements~Approximate Query Processing ~Sliding Window ~Block operators~All of the above 	5							
+			False negatives are allowed in Bloom Filter	True/Flase	No	xxxx	True~False	1							
+			 _____________% recall rate in Bloom Filter	MCQ(Single/Multiple)	No	xxxx	50~100~25.7~78.4	2							
+			The formula in Flajolet Martin to calculate estimate no of distinct elements is 2^_______.	MCQ(Single/Multiple)	No	xxxx	R~1/R~R2~3	1							
+			Concept drift phenomenon occurs because of feature change or changes in behaviour of the data itself.	True/Flase	No	xxxx	True~False	1							

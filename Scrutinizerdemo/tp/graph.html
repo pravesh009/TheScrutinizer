@@ -1,0 +1,76 @@
+<html>
+<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>The Scrutinizers</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+	<link rel="icon" href="../tp/assets/img/img.png">
+    <link href="../tp/assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME CSS -->
+<link href="tp/assets/css/font-awesome.min.css" rel="stylesheet" />
+     <!-- STYLE SWITCHER  CSS -->
+<link href="../tp/assets/css/styleSwitcher.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="../tp/assets/css/style.css" rel="stylesheet" />  
+     <!--GREEN STYLE VERSION IS BY DEFAULT, USE ANY ONE STYLESHEET FROM TWO STYLESHEETS (green or red) HERE-->
+     <link href="../tp/assets/css/themes/green.css" id="mainCSS" rel="stylesheet" />   
+  <!-- Google	Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+</head>
+<body >
+ <div class="navbar navbar-inverse navbar-fixed-top move-me" id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.php"><img class="logo-custom" src="../tp/assets/img/img.png" alt="../index.php"  /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ><a href="../tp/index2.html">HOME</a></li>
+                     <li><a href="#features">TEST</a></li>	
+					 <li><a href="">PROFILE</a></li>
+					 <li><a href="#developers">ABOUT US</a></li>
+                     <li><a href="#contact">CONTACT</a></li>
+					 <li><a href="../tp/thanku.html">LOGOUT</a></li>
+                     <li><a href="mailto:pravesh.jain@somaiya.edu?Subject=Product%20Enquiry" target="_top"> <i class="fa fa-envelope-o"></i><span class="home-mail">e-mail: pravesh.jain@somaiya.edu</span></a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+	<br>
+	<br>
+	<br>
+<head>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+<body>
+  <div align=center><h1>Current Test Analysis</h1>
+  <div id="myDiv1" style="width: 680px; height: 400px;"></div>
+  <h1>Last 10 Test Analysis</h1>
+  <div id="myDiv" style="width: 680px; height: 480px;"></div></div>
+  
+  <script>
+    var data = [{
+				x: ['Test1', 'Test2','Test3','Test4','Test5','Test6','Test7','Test8','Test9','Test10'],
+				y: [10, 14, 23,42,11,27,53,16,49,44],
+				type: 'bar'
+				}];
+
+	Plotly.newPlot('myDiv', data);
+	
+	var data1 = [{
+					values: [5,3,2],
+					labels: ['Correct-Answer', 'Incorrect-Answer','Not-Attempted'],
+					type: 'pie'
+				}];
+	Plotly.newPlot('myDiv1', data1);
+  </script>
+ </body>
+ </head>
+</html>

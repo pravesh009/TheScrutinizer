@@ -1,0 +1,90 @@
+<html>
+<title>Registration Form</title>
+<style>
+body
+{
+background-color:#f2f2f2;
+}
+div
+{
+width:525px;
+height:350px;
+margin:auto;
+margin-top:75px;
+border:1px solid black;
+background-color:white;
+}
+
+input[type=text], select {
+    width: 40%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    width: 80%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 72%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=integer], select {
+    width: 72%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 80%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+form
+{
+margin-left:45px;
+
+}
+
+
+</style>
+<body>
+<head><br><br><br><center><font size=7>Registration Form</center><head>
+<div>
+<form action="registration.php" method="post">
+<font size=5 color="black">
+<br>Name:<input type=text autocomplete placeholder=Firtsname name=fname required>
+<input type=text autocomplete placeholder=Lastname name=lname required><br>
+Email:<input type=email name=email autocomplete placeholder=abc@gmail.com required><br>
+PhoneNo.:<input type=integer name=phone_no required><br>
+Password:<input type=password name=password required><br>
+<center><input type=Submit name=Register>
+</form>
+</div>
+</body>
+</html>
